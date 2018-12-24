@@ -3,7 +3,9 @@ import random
 import matplotlib.pyplot as plt
 import numpy as np
 
-
+# ################
+# init
+# ################
 initial = 0.001
 run_times = 10
 step = 100
@@ -24,6 +26,10 @@ fp.close()
 g = nx.Graph()
 g.add_edges_from(edge)
 node_num = g.number_of_nodes()
+
+# #####################################
+# main
+# ####################################
 
 for times in range(run_times):
     I_set = []
