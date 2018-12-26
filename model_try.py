@@ -38,7 +38,7 @@ def transmit(node):
 initial = 1
 run_times = 5
 step = 300
-beta = 0.1
+beta = 0.2
 
 transmit_times_list = weight_random('e:/paper_data/user_transmit_times/Foxconn worker falls to death.txt')
 times_range = len(transmit_times_list) - 1
